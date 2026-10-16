@@ -7,7 +7,6 @@ int main(){
 
     if (freopen("teleport.in", "r", stdin) == nullptr) {
         cerr << "Could not open teleport.in\n";
-        cerr << filesystem::current_path() << '\n';
         return 1;
     }
     if (freopen("teleport.out", "w", stdout) == nullptr) {
