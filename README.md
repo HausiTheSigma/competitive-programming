@@ -1,5 +1,5 @@
 # competitive-programming
-<p> My journey of Competitive Programming </p>
+<h3><strong>My journey of Competitive Programming </h3></strong> 
 
 <h2>Platforms:</h2>
 <p>  USACO</p>
