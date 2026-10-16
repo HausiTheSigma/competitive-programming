@@ -1,3 +1,3 @@
 # competitive-programming
-My journey of Competitive Programming
-Check out the different branches!
+<p> My journey of Competitive Programming </p>
+<p><stron> Check out the different branches! </stron></p></p>
