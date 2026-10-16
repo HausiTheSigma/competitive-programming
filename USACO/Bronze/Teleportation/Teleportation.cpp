@@ -17,9 +17,6 @@ int main(){
     int a, b, x, y;
     cin >> a >> b >> x >> y;
 
-    int da = min(abs(a-b),min(abs(a-x),abs(a-y)));
-    if (da == abs(a-b)){cout << abs(a-b); return 0;}
-    int db = min(abs(b-x),abs(b-y));
-    cout << db + da;
+    cout << min(abs(a-b),min(abs(a-x)+abs(b-y),abs(a-y)+abs(b-x)));
     return 0;
 }
