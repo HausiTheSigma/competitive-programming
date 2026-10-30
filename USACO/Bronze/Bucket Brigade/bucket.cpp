@@ -17,7 +17,6 @@ int main(){
     vector<int> RL;
     vector<int> BR;
     vector<int> local(2);
-    int count{0};
     string inp;
     for(int j = 0; j<10; j++){
         
@@ -42,10 +41,9 @@ int main(){
         BR.push_back(B[i]-R[i]);
         //cout << BR[i] << endl;
     }
-    
+    int count = 0;
     while(abs(local[0]-B[0])+abs(local[1]-B[1]) != 1){
         vector<int> localram = local;
-        
         if(B[0] > local[0]){
             local[0]++;
             if(local == R){local[0]--;}
@@ -79,7 +77,7 @@ int main(){
         }
         
     }
-    //cout << count;
+    cout << count << endl;
     for(int i = 0; i < 10; i++){
         for(int j = 0; j < 10; j++){
             cout << cordsyx[i][j];
